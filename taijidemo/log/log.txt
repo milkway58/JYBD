@@ -1,0 +1,253 @@
+2019-08-12 23:29:45 Interface_test INFO      测试开始
+2019-08-12 23:29:45 Interface_test INFO     成本重算列表 开始
+2019-08-12 23:29:45 Interface_test INFO     url: http://glterp.taijierp.cn/system/CostRecalculation/getCostRecalculationList
+2019-08-12 23:29:45 Interface_test INFO     请求头: 
+2019-08-12 23:29:45 Interface_test INFO     期望结果:200.0
+2019-08-12 23:29:45 Interface_test INFO     客户期初 测试开始
+2019-08-12 23:29:45 Interface_test INFO     获取客户期初应收余额下载模板地址 开始
+2019-08-12 23:29:45 Interface_test INFO     url: http://glterp.taijierp.cn/system/CustomerBalance/downloadFileUrl
+2019-08-12 23:29:45 Interface_test INFO     请求头: 
+2019-08-12 23:29:45 Interface_test INFO     期望结果:200.0
+2019-08-12 23:29:45 Interface_test INFO      测试开始
+2019-08-12 23:29:45 Interface_test INFO     获取客户期初应收余额列表 开始
+2019-08-12 23:29:45 Interface_test INFO     url: http://glterp.taijierp.cn/system/CustomerBalance/getCustomerBeginningBalanceList
+2019-08-12 23:29:45 Interface_test INFO     请求头: 
+2019-08-12 23:29:45 Interface_test INFO     期望结果:200.0
+2019-08-12 23:29:45 Interface_test INFO      测试开始
+2019-08-12 23:29:45 Interface_test INFO     获取厂家期初应收余额列表 开始
+2019-08-12 23:29:45 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/getSupplierBeginningBalanceList
+2019-08-12 23:29:45 Interface_test INFO     请求头: 
+2019-08-12 23:29:45 Interface_test INFO     期望结果:200.0
+2019-08-12 23:29:45 Interface_test INFO      测试开始
+2019-08-12 23:29:45 Interface_test INFO     新增厂家期初应收余额 开始
+2019-08-12 23:29:45 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/addSupplierBeginningBalance
+2019-08-12 23:29:45 Interface_test INFO     请求头: {
+ 'sign':'123456',
+ 'company_id': '81',
+ 'supplier_id': '143',
+ 'receivable': '8',
+ 'payment': '5',
+}
+2019-08-12 23:29:45 Interface_test INFO     期望结果:200.0
+2019-08-12 23:29:45 Interface_test INFO      测试开始
+2019-08-12 23:29:45 Interface_test INFO     删除厂家期初应收余额 开始
+2019-08-12 23:29:45 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/delSupplierBeginningBalance
+2019-08-12 23:29:45 Interface_test INFO     请求头: {
+ 'sign':'123456',
+}
+2019-08-12 23:29:45 Interface_test INFO     期望结果:200.0
+2019-08-12 23:30:18 Interface_test INFO     厂家期初 测试开始
+2019-08-12 23:30:18 Interface_test INFO     获取厂家期初应收余额下载模板地址 开始
+2019-08-12 23:30:18 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/downloadFileUrl
+2019-08-12 23:30:18 Interface_test INFO     请求头: 
+2019-08-12 23:30:18 Interface_test INFO     期望结果:200.0
+2019-08-12 23:30:18 Interface_test INFO      测试开始
+2019-08-12 23:30:18 Interface_test INFO     获取厂家期初应收余额列表 开始
+2019-08-12 23:30:18 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/getSupplierBeginningBalanceList
+2019-08-12 23:30:18 Interface_test INFO     请求头: 
+2019-08-12 23:30:18 Interface_test INFO     期望结果:200.0
+2019-08-12 23:30:18 Interface_test INFO      测试开始
+2019-08-12 23:30:18 Interface_test INFO     新增厂家期初应收余额 开始
+2019-08-12 23:30:18 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/addSupplierBeginningBalance
+2019-08-12 23:30:18 Interface_test INFO     请求头: {
+ 'sign':'123456',
+ 'company_id': '81',
+ 'supplier_id': '143',
+ 'receivable': '8',
+ 'payment': '5',
+}
+2019-08-12 23:30:18 Interface_test INFO     期望结果:200.0
+2019-08-12 23:30:18 Interface_test INFO      测试开始
+2019-08-12 23:30:18 Interface_test INFO     删除厂家期初应收余额 开始
+2019-08-12 23:30:18 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/delSupplierBeginningBalance
+2019-08-12 23:30:18 Interface_test INFO     请求头: {
+ 'sign':'123456',
+}
+2019-08-12 23:30:18 Interface_test INFO     期望结果:200.0
+2019-08-12 23:30:30 Interface_test INFO     厂家期初 测试开始
+2019-08-12 23:30:30 Interface_test INFO     获取厂家期初应收余额下载模板地址 开始
+2019-08-12 23:30:30 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/downloadFileUrl
+2019-08-12 23:30:30 Interface_test INFO     请求头: 
+2019-08-12 23:30:30 Interface_test INFO     期望结果:200.0
+2019-08-12 23:30:47 Interface_test INFO     厂家期初 测试开始
+2019-08-12 23:30:47 Interface_test INFO     获取厂家期初应收余额下载模板地址 开始
+2019-08-12 23:30:47 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/downloadFileUrl
+2019-08-12 23:30:47 Interface_test INFO     请求头: 
+2019-08-12 23:30:47 Interface_test INFO     期望结果:200.0
+2019-08-12 23:30:47 Interface_test INFO      测试开始
+2019-08-12 23:30:47 Interface_test INFO     获取厂家期初应收余额列表 开始
+2019-08-12 23:30:47 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/getSupplierBeginningBalanceList
+2019-08-12 23:30:47 Interface_test INFO     请求头: 
+2019-08-12 23:30:47 Interface_test INFO     期望结果:200.0
+2019-08-12 23:30:47 Interface_test INFO      测试开始
+2019-08-12 23:30:47 Interface_test INFO     获取厂家期初应收余额详情 开始
+2019-08-12 23:30:47 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/getSupplierBeginningBalanceInfo
+2019-08-12 23:30:47 Interface_test INFO     请求头: 
+2019-08-12 23:30:47 Interface_test INFO     期望结果:200.0
+2019-08-12 23:30:47 Interface_test INFO      测试开始
+2019-08-12 23:30:47 Interface_test INFO     新增厂家期初应收余额 开始
+2019-08-12 23:30:47 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/addSupplierBeginningBalance
+2019-08-12 23:30:47 Interface_test INFO     请求头: {
+ 'sign':'123456',
+ 'company_id': '81',
+ 'supplier_id': '143',
+ 'receivable': '8',
+ 'payment': '5',
+}
+2019-08-12 23:30:47 Interface_test INFO     期望结果:200.0
+2019-08-12 23:30:47 Interface_test INFO      测试开始
+2019-08-12 23:30:47 Interface_test INFO     删除厂家期初应收余额 开始
+2019-08-12 23:30:47 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/delSupplierBeginningBalance
+2019-08-12 23:30:47 Interface_test INFO     请求头: {
+ 'sign':'123456',
+}
+2019-08-12 23:30:47 Interface_test INFO     期望结果:200.0
+2019-08-12 23:31:01 Interface_test INFO      测试开始
+2019-08-12 23:31:01 Interface_test INFO     获取厂家期初应收余额详情 开始
+2019-08-12 23:31:01 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/getSupplierBeginningBalanceInfo
+2019-08-12 23:31:01 Interface_test INFO     请求头: 
+2019-08-12 23:31:01 Interface_test INFO     期望结果:200.0
+2019-08-12 23:31:50 Interface_test INFO     厂家期初 测试开始
+2019-08-12 23:31:50 Interface_test INFO     获取厂家期初应收余额下载模板地址 开始
+2019-08-12 23:31:50 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/downloadFileUrl
+2019-08-12 23:31:50 Interface_test INFO     请求头: 
+2019-08-12 23:31:50 Interface_test INFO     期望结果:200.0
+2019-08-12 23:31:51 Interface_test INFO      测试开始
+2019-08-12 23:31:51 Interface_test INFO     获取厂家期初应收余额列表 开始
+2019-08-12 23:31:51 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/getSupplierBeginningBalanceList
+2019-08-12 23:31:51 Interface_test INFO     请求头: 
+2019-08-12 23:31:51 Interface_test INFO     期望结果:200.0
+2019-08-12 23:31:51 Interface_test INFO      测试开始
+2019-08-12 23:31:51 Interface_test INFO     获取厂家期初应收余额详情 开始
+2019-08-12 23:31:51 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/getSupplierBeginningBalanceInfo
+2019-08-12 23:31:51 Interface_test INFO     请求头: 
+2019-08-12 23:31:51 Interface_test INFO     期望结果:200.0
+2019-08-12 23:31:51 Interface_test INFO      测试开始
+2019-08-12 23:31:51 Interface_test INFO     新增厂家期初应收余额 开始
+2019-08-12 23:31:51 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/addSupplierBeginningBalance
+2019-08-12 23:31:51 Interface_test INFO     请求头: {
+ 'sign':'123456',
+ 'company_id': '81',
+ 'supplier_id': '143',
+ 'receivable': '8',
+ 'payment': '5',
+}
+2019-08-12 23:31:51 Interface_test INFO     期望结果:200.0
+2019-08-12 23:31:51 Interface_test INFO      测试开始
+2019-08-12 23:31:51 Interface_test INFO     删除厂家期初应收余额 开始
+2019-08-12 23:31:51 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/delSupplierBeginningBalance
+2019-08-12 23:31:51 Interface_test INFO     请求头: {
+ 'sign':'123456',
+}
+2019-08-12 23:31:51 Interface_test INFO     期望结果:200.0
+2019-08-12 23:32:48 Interface_test INFO      测试开始
+2019-08-12 23:32:48 Interface_test INFO     获取客户期初应收余额列表 开始
+2019-08-12 23:32:48 Interface_test INFO     url: http://glterp.taijierp.cn/system/CustomerBalance/getCustomerBeginningBalanceList
+2019-08-12 23:32:48 Interface_test INFO     请求头: 
+2019-08-12 23:32:48 Interface_test INFO     期望结果:200.0
+2019-08-12 23:32:51 Interface_test INFO     客户期初 测试开始
+2019-08-12 23:32:51 Interface_test INFO     获取客户期初应收余额下载模板地址 开始
+2019-08-12 23:32:51 Interface_test INFO     url: http://glterp.taijierp.cn/system/CustomerBalance/downloadFileUrl
+2019-08-12 23:32:51 Interface_test INFO     请求头: 
+2019-08-12 23:32:51 Interface_test INFO     期望结果:200.0
+2019-08-12 23:32:52 Interface_test INFO      测试开始
+2019-08-12 23:32:52 Interface_test INFO     获取客户期初应收余额列表 开始
+2019-08-12 23:32:52 Interface_test INFO     url: http://glterp.taijierp.cn/system/CustomerBalance/getCustomerBeginningBalanceList
+2019-08-12 23:32:52 Interface_test INFO     请求头: 
+2019-08-12 23:32:52 Interface_test INFO     期望结果:200.0
+2019-08-12 23:33:10 Interface_test INFO      测试开始
+2019-08-12 23:33:10 Interface_test INFO     成本重算列表 开始
+2019-08-12 23:33:10 Interface_test INFO     url: http://glterp.taijierp.cn/system/CostRecalculation/getCostRecalculationList
+2019-08-12 23:33:10 Interface_test INFO     请求头: 
+2019-08-12 23:33:10 Interface_test INFO     期望结果:200.0
+2019-08-12 23:33:10 Interface_test INFO     客户期初 测试开始
+2019-08-12 23:33:10 Interface_test INFO     获取客户期初应收余额下载模板地址 开始
+2019-08-12 23:33:10 Interface_test INFO     url: http://glterp.taijierp.cn/system/CustomerBalance/downloadFileUrl
+2019-08-12 23:33:10 Interface_test INFO     请求头: 
+2019-08-12 23:33:10 Interface_test INFO     期望结果:200.0
+2019-08-12 23:33:10 Interface_test INFO      测试开始
+2019-08-12 23:33:10 Interface_test INFO     获取客户期初应收余额列表 开始
+2019-08-12 23:33:10 Interface_test INFO     url: http://glterp.taijierp.cn/system/CustomerBalance/getCustomerBeginningBalanceList
+2019-08-12 23:33:10 Interface_test INFO     请求头: 
+2019-08-12 23:33:10 Interface_test INFO     期望结果:200.0
+2019-08-12 23:33:10 Interface_test INFO     厂家期初 测试开始
+2019-08-12 23:33:10 Interface_test INFO     获取厂家期初应收余额下载模板地址 开始
+2019-08-12 23:33:10 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/downloadFileUrl
+2019-08-12 23:33:11 Interface_test INFO     请求头: 
+2019-08-12 23:33:11 Interface_test INFO     期望结果:200.0
+2019-08-12 23:33:11 Interface_test INFO      测试开始
+2019-08-12 23:33:11 Interface_test INFO     获取厂家期初应收余额列表 开始
+2019-08-12 23:33:11 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/getSupplierBeginningBalanceList
+2019-08-12 23:33:11 Interface_test INFO     请求头: 
+2019-08-12 23:33:11 Interface_test INFO     期望结果:200.0
+2019-08-12 23:33:11 Interface_test INFO      测试开始
+2019-08-12 23:33:11 Interface_test INFO     获取厂家期初应收余额详情 开始
+2019-08-12 23:33:11 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/getSupplierBeginningBalanceInfo
+2019-08-12 23:33:11 Interface_test INFO     请求头: 
+2019-08-12 23:33:11 Interface_test INFO     期望结果:200.0
+2019-08-12 23:33:11 Interface_test INFO      测试开始
+2019-08-12 23:33:11 Interface_test INFO     新增厂家期初应收余额 开始
+2019-08-12 23:33:11 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/addSupplierBeginningBalance
+2019-08-12 23:33:11 Interface_test INFO     请求头: {
+ 'sign':'123456',
+ 'company_id': '81',
+ 'supplier_id': '143',
+ 'receivable': '8',
+ 'payment': '5',
+}
+2019-08-12 23:33:11 Interface_test INFO     期望结果:200.0
+2019-08-12 23:33:11 Interface_test INFO      测试开始
+2019-08-12 23:33:11 Interface_test INFO     删除厂家期初应收余额 开始
+2019-08-12 23:33:11 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/delSupplierBeginningBalance
+2019-08-12 23:33:11 Interface_test INFO     请求头: {
+ 'sign':'123456',
+}
+2019-08-12 23:33:11 Interface_test INFO     期望结果:200.0
+2019-08-12 23:51:10 Interface_test INFO      测试开始
+2019-08-12 23:51:10 Interface_test INFO     成本重算列表 开始
+2019-08-12 23:51:10 Interface_test INFO     url: http://glterp.taijierp.cn/system/CostRecalculation/getCostRecalculationList
+2019-08-12 23:51:10 Interface_test INFO     请求头: 
+2019-08-12 23:51:10 Interface_test INFO     期望结果:200.0
+2019-08-12 23:51:10 Interface_test INFO     客户期初 测试开始
+2019-08-12 23:51:10 Interface_test INFO     获取客户期初应收余额下载模板地址 开始
+2019-08-12 23:51:10 Interface_test INFO     url: http://glterp.taijierp.cn/system/CustomerBalance/downloadFileUrl
+2019-08-12 23:51:10 Interface_test INFO     请求头: 
+2019-08-12 23:51:10 Interface_test INFO     期望结果:200.0
+2019-08-12 23:51:10 Interface_test INFO      测试开始
+2019-08-12 23:51:10 Interface_test INFO     获取客户期初应收余额列表 开始
+2019-08-12 23:51:10 Interface_test INFO     url: http://glterp.taijierp.cn/system/CustomerBalance/getCustomerBeginningBalanceList
+2019-08-12 23:51:10 Interface_test INFO     请求头: 
+2019-08-12 23:51:10 Interface_test INFO     期望结果:200.0
+2019-08-12 23:51:11 Interface_test INFO     厂家期初 测试开始
+2019-08-12 23:51:11 Interface_test INFO     获取厂家期初应收余额下载模板地址 开始
+2019-08-12 23:51:11 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/downloadFileUrl
+2019-08-12 23:51:11 Interface_test INFO     请求头: 
+2019-08-12 23:51:11 Interface_test INFO     期望结果:200.0
+2019-08-12 23:51:11 Interface_test INFO      测试开始
+2019-08-12 23:51:11 Interface_test INFO     获取厂家期初应收余额列表 开始
+2019-08-12 23:51:11 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/getSupplierBeginningBalanceList
+2019-08-12 23:51:11 Interface_test INFO     请求头: 
+2019-08-12 23:51:11 Interface_test INFO     期望结果:200.0
+2019-08-12 23:51:11 Interface_test INFO      测试开始
+2019-08-12 23:51:11 Interface_test INFO     获取厂家期初应收余额详情 开始
+2019-08-12 23:51:11 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/getSupplierBeginningBalanceInfo
+2019-08-12 23:51:11 Interface_test INFO     请求头: 
+2019-08-12 23:51:11 Interface_test INFO     期望结果:200.0
+2019-08-12 23:51:11 Interface_test INFO      测试开始
+2019-08-12 23:51:11 Interface_test INFO     新增厂家期初应收余额 开始
+2019-08-12 23:51:11 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/addSupplierBeginningBalance
+2019-08-12 23:51:11 Interface_test INFO     请求头: {
+ 'sign':'123456',
+ 'company_id': '81',
+ 'supplier_id': '143',
+ 'receivable': '8',
+ 'payment': '5',
+}
+2019-08-12 23:51:11 Interface_test INFO     期望结果:200.0
+2019-08-12 23:51:11 Interface_test INFO      测试开始
+2019-08-12 23:51:11 Interface_test INFO     删除厂家期初应收余额 开始
+2019-08-12 23:51:11 Interface_test INFO     url: http://glterp.taijierp.cn/system/SupplierBalance/delSupplierBeginningBalance
+2019-08-12 23:51:11 Interface_test INFO     请求头: {
+ 'sign':'123456',
+}
+2019-08-12 23:51:11 Interface_test INFO     期望结果:200.0
